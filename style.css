@@ -1,0 +1,46 @@
+body {
+    background: url("https://thumbs.dreamstime.com/b/vector-education-pattern-educattion-seamless-background-vector-education-pattern-educattion-seamless-background-vector-113988685.jpg");
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 30px;
+    color: brown;
+    background-color: chartreuse;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+}
+
+#CC {
+    background-color: grey;
+    color: gold;
+    font-weight: 700;
+}
+
+#CC:hover {
+    background-color: black;
+}
+
+#show_sketch {
+    float: right;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px green;}
+    to {box-shadow: 1px 1px 38px skyblue;}
+}
